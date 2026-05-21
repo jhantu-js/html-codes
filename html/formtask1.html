@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <h1>Travel reservation form</h1>
+  <caption>
+    *denotes mandatory
+  </caption>
+  <br />
+  <body>
+    <form action="">
+      <label for="name">Full Name*:</label><br />
+      <input
+        type="text"
+        name="name"
+        id="name"
+        placeholder="FirstName LastName"
+      /><br />
+
+      <label for="mail">Email Address*:</label><br />
+      <input
+        type="email"
+        name="mail"
+        id="mail"
+        placeholder="EMAIL_ADDRESS"
+      /><br />
+
+      <label for="city">Select Tour Package*:</label><br />
+      <select name="city" id="city">
+        <option value="goa">Goa</option>
+        <option value="manali">Manali</option>
+        <option value="kerela">Kerela</option></select
+      ><br />
+
+      <label for="doa">Arrival Date*:</label><br />
+      <input type="date" name="date" id="date" /><br />
+
+      <label for="person">Number of Persons*:</label><br />
+      <input
+        type="number"
+        name="person"
+        id="person"
+        value=""
+        placeholder="UNKNOWN_TYPE"
+      /><br />
+
+      <label for="preference">What would you want to avail?*:</label><br />
+      <input type="checkbox" name="preference" id="Boarding" value="Boarding" />
+      <label for="Boarding">Boarding</label><br />
+      <input type="checkbox" name="preference" id="Fooding" value="Fooding" />
+      <label for="Fooding">Fooding</label><br />
+      <input
+        type="checkbox"
+        name="preference"
+        id="sightseeing"
+        value="sightseeing"
+      />
+      <label for="sightseeing">Sight seeing</label><br />
+
+      <label for="discount">Discount Coupon:</label><br />
+      <input
+        type="text"
+        name="discount"
+        id="discount"
+        placeholder="Enter coupon code"
+      /><br />
+
+      <label for="terms">Term and Conditions*:</label><br />
+      <input type="checkbox" name="terms" id="terms" value="terms" />
+      <label for="terms">I agree</label>
+      <input
+        type="checkbox"
+        name="conditions"
+        id="conditions"
+        value="conditions"
+      />
+      <label for="conditions">I disagree</label><br />
+
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>

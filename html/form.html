@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Document</title>
+  </head>
+  <body>
+    <!-- text, email, password, submit, reset, date, time, number, radio, checkbox, range, color, select, textarea-->
+    <form action="" method="GET">
+      <label for="fname">First Name</label>
+      <input
+        type="text"
+        name="first_name"
+        placeholder="Enter your first name"
+        id="fname"
+      /><br /><br />
+
+      <label for="mail">Email</label>
+      <input
+        type="email"
+        name="mail"
+        placeholder="Enter your email"
+        id="mail"
+      />
+      <br /><br />
+      <label for="pwd">Password</label>
+
+      <input
+        type="password"
+        name="password"
+        placeholder="Enter password"
+        id="pwd"
+      /><br /><br />
+      <label for="dob">Date of Birth</label>
+      <input type="date" name="dob" id="dob" /><br /><br />
+
+      <label for="time">Time</label>
+      <input type="time" name="time" id="time" /><br /><br />
+
+      <label for="number">Number</label>
+      <input
+        type="number"
+        name="number"
+        id="number"
+        min="1"
+        max="50"
+      /><br /><br />
+
+      <label for="pro_img">Profile Image</label>
+      <input type="file" name="pro_img" id="pro_img" /><br /><br />
+
+      <label for="document">Upload Document</label>
+      <input type="file" name="document" id="document" multiple /><br /><br />
+
+      <label for="color">Color</label>
+      <input type="color" name="color" id="color" /><br /><br />
+
+      <label for="range">Range</label>
+      <input
+        type="range"
+        name="range"
+        id="range"
+        min="1"
+        max="50"
+      /><br /><br />
+
+      <label>Gender</label>
+      <input type="radio" name="gender" id="male" value="male" />
+      <label for="male">Male</label>
+      <input type="radio" name="gender" id="female" value="female" />
+      <label for="female">Female</label>
+      <input type="radio" name="gender" id="other" value="other" />
+      <label for="other">Other</label><br /><br />
+
+      <label>Subject</label>
+      <input type="checkbox" name="html" id="html" value="html" />
+      <label for="html">HTML</label>
+      <input type="checkbox" name="css" id="css" value="css" />
+      <label for="css">CSS</label>
+      <input type="checkbox" name="js" id="js" value="js" />
+      <label for="js">JavaScript</label>
+      <input type="checkbox" name="jquery" id="jquery" value="jquery" />
+      <label for="jquery">JQUERY</label><br /><br />
+
+      <label for="msg">Message</label>
+      <textarea
+        name="msg"
+        id="msg"
+        rows="5"
+        cols="50"
+        placeholder="Enter your message"
+      ></textarea
+      ><br /><br />
+
+      <label for="city">City</label>
+      <select name="city" id="city">
+        <optgroup label="South Bengal">
+          <option value="kolkata">Kolkata</option>
+          <option value="Durgapur">Durgapur</option>
+          <option value="howrah">Howrah</option>
+        </optgroup>
+        <optgroup label="North Bengal">
+          <option value="siliguri">Siliguri</option>
+          <option value="malda">Malda</option>
+        </optgroup></select
+      ><br /><br />
+
+      <input type="submit" value="submit data" />
+      <input type="reset" value="Reset data" />
+    </form>
+  </body>
+</html>
