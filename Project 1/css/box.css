@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(252, 248, 242);
+}
+.box{
+    background-color: aquamarine;
+
+/*top bottom left right*/
+    margin:100px;
+    /*top bottom left right*/
+    margin:50px 100px;
+    /*top left-right bottom*/
+    margin:50px 100px 150px;
+    /*top right bottom left*/
+    margin:50px 100px 150px 200px;
+    /*Indivisual*/
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-bottom: 150px;
+    margin-left: 200px;
+
+    padding:100px;
+
+    width: 50%;
+    margin: 75px auto;
+    /* border-width; 3px;
+    border-style: solid;
+    border-color: navy;*/
+    border-top: 5px solid navy;
+    border-right: 5px dashed navy;
+    border-bottom: 5px dotted navy;
+    border-left: 5px double navy;
+}
+p{
+    font-size: 22px;
+    letter-spacing: 3px;
+}
